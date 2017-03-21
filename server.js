@@ -20,9 +20,7 @@ var server = http.createServer(function (request, response) {
     response.end(
       '<p>' + displayJoke + '</p>' +
       '<h1>Random Joke </h1>' +
-      '<button id="jokeButton">New Joke</button>' +
-      '<a href = />Homepage</a>' +
-      '<div id="jokeDisplay"   </div>'
+      '<a href = />Homepage</a>'
     )
   } else if (request.url === '/cuteness') {
     response.end(
